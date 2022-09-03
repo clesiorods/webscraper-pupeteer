@@ -1,0 +1,25 @@
+{
+  "name": "webscraper-pupeteer",
+  "version": "1.0.0",
+  "description": "Ferramenta de web scrape com Pupeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clesiorods/webscraper-pupeteer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clesiorods/webscraper-pupeteer/issues"
+  },
+  "homepage": "https://github.com/clesiorods/webscraper-pupeteer#readme",
+  "dependencies": {
+    "puppeteer": "^17.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.1"
+  }
+}
