@@ -4,7 +4,8 @@
   "description": "Ferramenta de web scrape com Pupeteer",
   "main": "index.js",
   "scripts": {
-    "test": "jest ./index.js"
+    "test": "jest ./index.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/clesiorods/webscraper-pupeteer#readme",
   "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
     "puppeteer": "^17.1.0"
   },
   "devDependencies": {
