@@ -12,7 +12,7 @@ module.exports =
     
         const page = await browser.newPage();
     
-        const URL = `https://www.google.com/search?q=noticias+bolsa+de+valores&rlz=1C1GCEA_enBR1016BR1016&tbm=nws&sxsrf=ALiCzsb1e0lxQ5suipi5uRkcs5E8mGGb5g:1662178703465&source=lnt&tbs=qdr:d&sa=X&ved=2ahUKEwj7gbGZ4vf5AhUYr5UCHZBJAPUQpwV6BAgBEBs&biw=1280&bih=951&dpr=1`;
+        const URL = `https://www.google.com/search?q=bolsa+de+valores&rlz=1C1GCEA_enBR1016BR1016&sxsrf=ALiCzsanqEru55t1wwSNsMaD2dtHi_4V4g:1662307638939&source=lnms&tbm=nws&sa=X&ved=2ahUKEwjy7M3Cwvv5AhWIqZUCHaJeDN4Q_AUoAXoECAIQAw&biw=1366&bih=649&dpr=1`;
     
         await page.goto(URL, { waitUntil: 'load', timeout: 120000 });
         // await page.screenshot({ path: 'example.png' });

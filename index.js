@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.json());
 
-app.get('/', async (request, response) => {
+app.get('/noticias', async (request, response) => {
 
     const noticias = await robo();
 
@@ -16,6 +16,6 @@ app.get('/', async (request, response) => {
     })
 })
 
-app.listen(3333, () => {
-    console.log("Servidor rodando na porta 3333");
+app.listen(process.env.PORT || 3000, () => {
+    console.log("Servidor rodando na porta 3000");
 });
